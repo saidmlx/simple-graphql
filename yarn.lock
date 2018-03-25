@@ -280,6 +280,13 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
 
+casual@^1.5.19:
+  version "1.5.19"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/casual/-/casual-1.5.19.tgz#66fac46f7ae463f468f5913eb139f9c41c58bbf2"
+  dependencies:
+    mersenne-twister "^1.0.1"
+    moment "^2.15.2"
+
 chalk@^2.0.1:
   version "2.3.2"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/chalk/-/chalk-2.3.2.tgz#250dc96b07491bfd601e648d66ddf5f60c7a5c65"
@@ -1212,6 +1219,10 @@ merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
 
+mersenne-twister@^1.0.1:
+  version "1.1.0"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/mersenne-twister/-/mersenne-twister-1.1.0.tgz#f916618ee43d7179efcf641bec4531eb9670978a"
+
 methods@~1.1.2:
   version "1.1.2"
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
@@ -1274,6 +1285,10 @@ mixin-deep@^1.2.0:
   resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+moment@^2.15.2:
+  version "2.21.0"
+  resolved "https://globaldevtools.bbva.com:443/artifactory/api/npm/npm-repo/moment/-/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
 
 ms@2.0.0:
   version "2.0.0"
