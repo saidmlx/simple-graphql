@@ -4,7 +4,7 @@ const express =require('express')
 const bodyparser = require('body-parser')
 
 const { graphqlExpress, graphiqlExpress} = require('graphql-server-express')
-const schema = require('./schema')
+const schema = require('./schema/schema')
 
 require('./db/setup.js')
 
