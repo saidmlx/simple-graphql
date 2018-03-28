@@ -13,7 +13,16 @@ const app = express()
 
 app.use('/graphql',
   bodyparser.json(),
-  graphqlExpress({schema})
+  graphqlExpress({
+    schema,
+    formatError:(error) => {
+      return {
+        code:234,
+        name: error.name,
+        message: error.message
+      }
+    }
+  })
 )
 
 app.use('/graphiql',
